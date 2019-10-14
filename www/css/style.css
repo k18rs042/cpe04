@@ -76,6 +76,7 @@
 
     #btnA{
       background-color: yellow;
+      color: green;
     }
 
     input[type=number] {text-align: right;}
