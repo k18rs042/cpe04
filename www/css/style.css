@@ -79,4 +79,9 @@
       color: green;
     }
 
+    #time::after{
+      content: "秒";
+
+    }
+
     input[type=number] {text-align: right;}
