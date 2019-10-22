@@ -212,22 +212,19 @@
 
     function btnDClick(e){
       $("#minute").val(5);
-      alarm();
       active = false;
       period = 60 * parseInt($("#minute").val())+ parseInt($("#second").val());
       $("#time").html("経過時間：0");
       $("#remain").html("残り時間： "+period);
-      $("#btnD").html("5分");
     }
 
-    function btnDClick(e){
+    function btnEClick(e){
       $("#minute").val(3);
-      alarm();
       active = false;
       period = 60 * parseInt($("#minute").val())+ parseInt($("#second").val());
       $("#time").html("経過時間：0");
       $("#remain").html("残り時間： "+period);
-      $("#btnD").html("3分");
+
     }
     
  
@@ -261,8 +258,8 @@
     <button id="btnA">ButtonA</button>  
     <button id="btnB">ButtonB</button>  
     <button id="btnC">ButtonC</button>  
-    <button id="btnD">ButtonD</button> 
-    <button id="btnE">ButtonE</button> 
+    <button id="btnD">5分</button> 
+    <button id="btnE">3分</button> 
     <input type="number" id="minute" value=3 >
     <input type="number" id="second" value=0 >
 </body>
